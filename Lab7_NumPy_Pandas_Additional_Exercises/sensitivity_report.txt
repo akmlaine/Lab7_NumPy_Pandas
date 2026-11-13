@@ -1,0 +1,46 @@
+SENSITIVITY ANALYSIS REPORT
+===========================
+
+Student: Malitao
+Student ID: TUPM-26-1135
+Random Seed: 261135
+
+ANALYSIS CONFIGURATION
+----------------------
+Selected Features: 5
+Bootstrap Repetitions: 250
+Confidence Level: 95%
+Difference Calculation: Fail Mean - Pass Mean
+
+SELECTED FEATURES
+-----------------
+[162, 417, 444, 473, 522]
+
+SENSITIVITY SUMMARY
+-------------------
+Largest Change in Mean Difference: 25.522276
+Features with Changed Difference Sign: 0
+Features with Changed Ranking: 0
+Available-Case CIs Including Zero: 5
+Imputed CIs Including Zero: 5
+Bootstrap Reproducibility Verified: True
+
+FEATURE COMPARISON
+------------------
+Feature 162: Available-case difference = -154.061108, Imputed difference = -179.583384, Available-case CI = [-1114.133710, 920.525405], Imputed CI = [-1357.082053, 1016.906532]
+Feature 417: Available-case difference = -0.693796, Imputed difference = -0.692646, Available-case CI = [-1.409080, 0.019194], Imputed CI = [-1.392820, 0.181072]
+Feature 444: Available-case difference = -0.004192, Imputed difference = -0.004197, Available-case CI = [-0.027278, 0.022741], Imputed CI = [-0.035354, 0.025285]
+Feature 473: Available-case difference = 0.855168, Imputed difference = 0.879680, Available-case CI = [-3.803769, 6.133184], Imputed CI = [-3.605700, 5.440694]
+Feature 522: Available-case difference = 0.390212, Imputed difference = 0.390212, Available-case CI = [-0.788383, 1.574159], Imputed CI = [-0.777834, 1.915534]
+
+INTERPRETATION
+--------------
+The two data preparation strategies were compared using
+observed Fail-minus-Pass mean differences and stratified
+bootstrap confidence intervals.
+
+Confidence intervals containing zero do not provide clear
+evidence of a nonzero mean difference at the 95% level.
+
+Bootstrap reproducibility was checked by repeating the
+analysis with identical random seeds.
