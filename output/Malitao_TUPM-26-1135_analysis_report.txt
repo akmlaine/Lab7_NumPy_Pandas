@@ -1,0 +1,18 @@
+SECOM NUMERICAL DATA ANALYSIS
+Student: Malitao
+Student ID: TUPM-26-1135
+Verification Value: 131
+Sample Size: 218
+Assigned Features: Feature_158, Feature_433, Feature_298, Feature_004, Feature_553
+Pass Records: 205
+Fail Records: 13
+Sample Failure: 5.96%
+Highest-SD Feature: Feature_433
+Highest Sample SD: 221.7902
+Verification: PASSED
+
+Interpretation Notes:
+- Median imputation supports descriptive analysis.
+- Raw variability does not imply feature importance.
+- Group differences do not establish failure causes.
+- Sample failure percentage is not prediction accuracy.
